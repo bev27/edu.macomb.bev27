@@ -18,6 +18,8 @@ package edu.macomb.bev27;
 
 import java.util.Set;
 
+import com.example.android.BluetoothChat.R;
+
 import android.app.Activity;
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;

@@ -14,7 +14,7 @@
      limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-      package="edu.macomb.bev27"
+      package="com.example.android.BluetoothChat"
       android:versionCode="1"
       android:versionName="1.0">
     <uses-sdk minSdkVersion="6" />
@@ -33,7 +33,7 @@
         </activity>
         <activity android:name=".DeviceListActivity"
                   android:label="@string/select_device"
-                  android:theme="@android:style/Theme.Holo.Dialog"
+                  android:theme="@android:style/Theme.Dialog"
                   android:configChanges="orientation|keyboardHidden" />
     </application>
 </manifest>
