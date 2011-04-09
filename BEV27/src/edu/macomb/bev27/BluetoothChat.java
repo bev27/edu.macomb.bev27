@@ -17,8 +17,6 @@
 package edu.macomb.bev27;
 
 import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -98,13 +96,14 @@ public class BluetoothChat extends Activity {
 		super.onCreate(savedInstanceState);
 
 		am = getAssets();
+
 		try {
 			is = am.open("Raw_captured.txt");
 			br = new BufferedReader(new InputStreamReader(is));
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		System.out.println("Hello I am after the try");
+
 		if (D)
 			Log.e(TAG, "+++ ON CREATE +++");
 
